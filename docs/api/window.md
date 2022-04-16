@@ -244,6 +244,7 @@ However, you can build communication streams between windows with the [storage A
 ### Parameters
 
 - `url` String: URL to be loaded. Eg: `/resources/aboutWindow.html`.
+- `url` must contain a front slash other-wise it might throw error. Eg: `/index.html`.
 - `options` (optional): an instance of `WindowOptions` type.
 
 ### WindowOptions
